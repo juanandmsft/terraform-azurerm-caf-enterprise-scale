@@ -168,6 +168,9 @@
       "azureMachineLearningWorkspacePrivateDnsZoneId": {
         "value": "${private_dns_zone_prefix}privatelink.api.azureml.ms"
       },
+      "azureMachineLearningWorkspaceSecondPrivateDnsZoneId": {
+        "value": "${private_dns_zone_prefix}privatelink.notebooks.azure.net"
+      },
       "azureServiceBusNamespacePrivateDnsZoneId": {
         "value": "${private_dns_zone_prefix}privatelink.servicebus.windows.net"
       },
